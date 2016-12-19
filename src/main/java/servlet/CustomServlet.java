@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
         name = "CustomServlet",
         urlPatterns = {"/custom"}
     )
-public class HelloServlet extends HttpServlet {
+public class CustomServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
